@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300&family=Roboto:wght@100&display=swap');
+
+*{
+    color: var(--myblack-color);
+}
+
+:root{
+    --mygreen-color:#198754;
+    --mylight-blue:#0d6efd;
+    --myback-ground:#c7d6db;
+    --myblack-color:black;
+}
+
+header{
+    background-color: var(--mygreen-color);
+}
+
+.wrap{
+    margin: 4px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background-color: var(--myback-ground);
+    overflow-y: auto;
+}
+
+.trade{
+    font-size: 18px;
+    color: var(--mylight-blue);
+      
+}
+
+/*MENU*/
+
+
+
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--myblack-color);
+
+}
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*CAROUSEL PICS*/
+
+.carousel-inner img{
+    height: 400px;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+/*PRODUCTS*/
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.keyword{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.location{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form1{
+    background-color: var(--mylight-blue);
+    width: 400px;
+}
+
+footer{
+    margin-top: 15px;
+    text-align: center;
+    height: 40px;
+    background-color:var(--mygreen-color);
+    line-height: 10px ;
+}
+
+/*LOGIN*/
+
+
+.signup-box{
+    width: 360px;
+    height: 647px;
+    margin: 90px auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+
+.login-box{
+    width: 360px;
+    height: 380px;
+    margin: 25px auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width:300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--mygreen-color);
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.paragraph-2{
+    text-align: center;
+    color: var(--mylight-blue);
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+
+.paragraph-2 a{
+    color: var(--mygreen-color);
+}
+

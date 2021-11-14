@@ -1,0 +1,50 @@
+@media(max-width:940px){
+    .products{
+        width: 95%;
+    }
+    .card{
+        margin: 10px;
+    }
+}
+
+
+@media(max-width:859px){
+    .products{
+        width: 95%;
+    }
+    .card{
+        margin: 10px;
+
+    }
+
+    .location{
+        width: 95%;
+        margin: 8px ;
+    }
+    
+    .form1{
+        margin: 8px;
+    }
+}
+
+@media(max-width:800px){
+    .location{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map{
+       margin: 0 auto;
+    }
+    .form1{
+        width: 80%;
+        margin: 8px auto;
+        
+    }
+   
+    p {
+        margin-top: 16px;
+        
+    }
+}
+
